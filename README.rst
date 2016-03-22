@@ -5,8 +5,14 @@ Cacheback
 Asynchronous cache refreshing for Django
 ----------------------------------------
 
-What does this library do?
---------------------------
+Features added to original library:
+-----------------------------------
+    - added by insurancezebra:
+        - cache tagging
+        - verbose error logging on cache fail
+
+What does the original library do?
+----------------------------------
 It's an extensible caching library that refreshes stale cache items
 asynchronously using a Celery_ task.  The key idea being that it's
 better to serve a stale item (and populate the cache asynchronously) than block
