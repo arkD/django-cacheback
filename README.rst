@@ -7,6 +7,8 @@ Asynchronous cache refreshing for Django
 
 Features added to original library:
 -----------------------------------
+    Supports Django 1.10
+
     - added by insurancezebra:
         - cache tagging
         - verbose error logging on cache fail

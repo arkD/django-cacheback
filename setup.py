@@ -20,7 +20,7 @@ setup(name='django-cacheback',
       packages=find_packages(exclude=["sandbox*", "tests*"]),
       include_package_data=True,
       install_requires=[
-          'Django==1.8.6',
+          'Django==1.10.3',
           'django-celery==3.1.17',
           'cache-tagging==0.7.7.11'],
       # See http://pypi.python.org/pypi?%3Aaction=list_classifiers
